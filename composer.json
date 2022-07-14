@@ -1,0 +1,26 @@
+{
+    "name": "psc-acme/core",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Acme\\Core\\": "src/"
+        }
+    },
+    "require": {
+        "monolog/monolog": "^2.7"
+    },
+    "repositories": {
+        "packagist.org": false,
+        "private-packagist": {
+            "type": "composer",
+            "url": "https://repo.packagist-self-hosted.com.lo/psc-acme/",
+            "options": {
+                "ssl": {
+                    "verify_peer": false,
+	            "verify_peer_name": false
+                }
+            }
+	}
+    }
+}
