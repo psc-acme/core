@@ -7,9 +7,6 @@
             "Acme\\Core\\": "src/"
         }
     },
-    "require": {
-        "monolog/monolog": "^2.7"
-    },
     "repositories": {
         "packagist.org": false,
         "private-packagist": {
