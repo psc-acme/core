@@ -11,13 +11,10 @@
         "packagist.org": false,
         "private-packagist": {
             "type": "composer",
-            "url": "https://repo.packagist-self-hosted.com.lo/psc-acme/",
-            "options": {
-                "ssl": {
-                    "verify_peer": false,
-	            "verify_peer_name": false
-                }
-            }
-	}
+            "url": "http://repo.packagist.com.lo/psc-acme/"
+        }
+    },
+    "config": {
+        "secure-http": false
     }
 }
