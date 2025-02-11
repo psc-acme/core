@@ -16,5 +16,8 @@
     },
     "config": {
         "secure-http": false
+    },
+    "require": {
+        "webforge/object-asserter": "^1.2"
     }
 }

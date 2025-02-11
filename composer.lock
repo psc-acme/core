@@ -4,8 +4,116 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ef19a952cf2930e9cce8b2fd2006fcfe",
-    "packages": [],
+    "content-hash": "57d0f03056fd320329df6001173f4be4",
+    "packages": [
+        {
+            "name": "hamcrest/hamcrest-php",
+            "version": "v2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hamcrest/hamcrest-php.git",
+                "reference": "8c3d0a3f6af734494ad8f6fbbee0ba92422859f3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hamcrest/hamcrest-php/zipball/8c3d0a3f6af734494ad8f6fbbee0ba92422859f3",
+                "reference": "8c3d0a3f6af734494ad8f6fbbee0ba92422859f3",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "http://repo.packagist.com.lo/psc-acme/dists/%package%/%version%/r%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": "^5.3|^7.0|^8.0"
+            },
+            "replace": {
+                "cordoval/hamcrest-php": "*",
+                "davedevelopment/hamcrest-php": "*",
+                "kodova/hamcrest-php": "*"
+            },
+            "require-dev": {
+                "phpunit/php-file-iterator": "^1.4 || ^2.0",
+                "phpunit/phpunit": "^4.8.36 || ^5.7 || ^6.5 || ^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "hamcrest"
+                ]
+            },
+            "notification-url": "http://repo.packagist.com.lo/psc-acme/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "This is the PHP port of Hamcrest Matchers",
+            "keywords": [
+                "test"
+            ],
+            "support": {
+                "issues": "https://github.com/hamcrest/hamcrest-php/issues",
+                "source": "https://github.com/hamcrest/hamcrest-php/tree/v2.0.1"
+            },
+            "time": "2020-07-09T08:09:16+00:00"
+        },
+        {
+            "name": "webforge/object-asserter",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webforge-labs/object-asserter.git",
+                "reference": "9ab4b9c31ae4573997211cfed6be7b853b890677"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webforge-labs/object-asserter/zipball/9ab4b9c31ae4573997211cfed6be7b853b890677",
+                "reference": "9ab4b9c31ae4573997211cfed6be7b853b890677",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "http://repo.packagist.com.lo/psc-acme/dists/%package%/%version%/r%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "hamcrest/hamcrest-php": "^2.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^1.0",
+                "phpunit/phpunit": "^9.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Webforge\\ObjectAsserter\\": "src/"
+                }
+            },
+            "notification-url": "http://repo.packagist.com.lo/psc-acme/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Philipp Scheit",
+                    "email": "p.scheit@ps-webforge.com"
+                }
+            ],
+            "description": "Fluent DSL to do assertions on scalar structures",
+            "support": {
+                "issues": "https://github.com/webforge-labs/object-asserter/issues",
+                "source": "https://github.com/webforge-labs/object-asserter/tree/1.2.0"
+            },
+            "time": "2024-11-06T15:02:58+00:00"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
